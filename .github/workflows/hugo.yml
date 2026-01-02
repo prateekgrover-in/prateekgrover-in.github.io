@@ -1,4 +1,4 @@
-name: Deploy hugo site
+name: Deploy hugo portfolio
 
 on:
   push:
@@ -6,8 +6,9 @@ on:
       - main
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,4 +28,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages
+          publish_branch: gh-pages    
+          user_name: 'Prateek Grover'
+          user_email: 'prateek.grover.in@gmail.com'
