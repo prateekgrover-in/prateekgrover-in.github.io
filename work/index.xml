@@ -1,0 +1,173 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prateek grover</title><link>/work/</link><description>Recent content on prateek grover</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/work/" rel="self" type="application/rss+xml"/><item><title>education</title><link>/work/card/education/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/work/card/education/</guid><description>
+&lt;style&gt;
+.education-entry {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 2rem;
+flex-wrap: wrap;
+}
+.education-text {
+flex: 1;
+text-align: left;
+min-width: 250px;
+}
+.education-logo {
+flex: 0 0 auto;
+text-align: center;
+margin-left: 1rem;
+}
+/* responsive stacking */
+@media (max-width: 700px) {
+.education-entry {
+flex-direction: column-reverse;
+text-align: center;
+}
+.education-text {
+text-align: center;
+}
+.education-logo {
+margin: 0 0 1rem 0;
+}
+}
+&lt;/style&gt;
+&lt;div class="education"&gt;
+&lt;div class="education-entry"&gt;
+&lt;div class="education-text"&gt;
+&lt;strong&gt;Katholieke Universiteit Leuven&lt;/strong&gt;&lt;br&gt;
+M.Sc. Computer Science&lt;br&gt;
+&lt;em&gt;September 2023 – July 2026, Leuven, Belgium&lt;/em&gt;
+&lt;/div&gt;
+&lt;div class="education-logo"&gt;
+&lt;img src="kul.png" alt="KU Leuven Logo" style="height: 50px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="education-entry"&gt;
+&lt;div class="education-text"&gt;
+&lt;strong&gt;Birla Institute of Technology and Science, Pilani&lt;/strong&gt;&lt;br&gt;
+B.E. (Hons.) Electrical and Electronics Engineering&lt;br&gt;
+&lt;em&gt;August 2018 – May 2022, Rajasthan, India&lt;/em&gt;
+&lt;/div&gt;
+&lt;div class="education-logo"&gt;
+&lt;img src="bits.png" alt="BITS Pilani Logo" style="height: 100px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>experience</title><link>/work/card/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/work/card/experience/</guid><description>
+&lt;style&gt;
+.work-experience {
+max-width: 950px;
+margin: 0 auto;
+}
+.work-entry {
+display: flex;
+align-items: flex-start;
+margin-bottom: 2rem;
+gap: 1.5rem;
+}
+.work-logo {
+flex: 0 0 200px;
+text-align: center;
+}
+.work-text {
+flex: 1;
+text-align: justify;
+text-align-last: right;
+direction: rtl;
+line-height: 1.5;
+}
+.work-text * {
+direction: ltr;
+}
+.work-text strong {
+font-weight: 600;
+}
+.work-text em {
+color: #555;
+}
+@media (max-width: 700px) {
+.work-entry {
+flex-direction: column;
+text-align: center;
+}
+.work-logo {
+margin: 0 auto 1rem auto;
+}
+.work-text {
+direction: ltr;
+text-align: justify;
+text-align-last: left;
+}
+}
+&lt;/style&gt;
+&lt;div class="work-experience"&gt;
+&lt;div class="work-entry"&gt;
+&lt;div class="work-logo"&gt;
+&lt;img src="atlas_copco.png" alt="Atlas Copco Logo" style="height: 70px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;div class="work-text"&gt;
+&lt;strong&gt;Site Reliability Engineer&lt;/strong&gt;&lt;br&gt;
+Atlas Copco Group&lt;br&gt;
+&lt;em&gt;October 2025 – Present, Antwerp, Belgium&lt;/em&gt;
+&lt;br&gt;&lt;br&gt;
+Developed function apps for data validation, implemented infrastructure as code, and built alerting pipelines using structured queries and custom dashboards.
+&lt;em&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Python, Terraform, New Relic, Microsoft Azure&lt;/em&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="work-entry"&gt;
+&lt;div class="work-logo"&gt;
+&lt;img src="imec_logo.png" alt="imec Logo" style="height: 70px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;div class="work-text"&gt;
+&lt;strong&gt;Engineering Intern&lt;/strong&gt;&lt;br&gt;
+Life Sciences Department, &lt;em&gt;imec&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;March 2025 – June 2025; Leuven, Belgium&lt;/em&gt;
+&lt;br&gt;&lt;br&gt;
+Developed a custom plugin for multimodal cellular analysis, integrating deep learning pipelines for segmentation, tracking, and visualization with scalable cloud deployment
+&lt;em&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Python, PyQt, TensorFlow, PyTorch, Google Cloud&lt;/em&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="work-entry"&gt;
+&lt;div class="work-logo"&gt;
+&lt;img src="nokia_bell.png" alt="Nokia Bell Labs Logo" style="height: 70px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;div class="work-text"&gt;
+&lt;strong&gt;Engineering Intern&lt;/strong&gt;&lt;br&gt;
+Nokia Bell Labs&lt;br&gt;
+&lt;em&gt;July 2024 – August 2024; Antwerp, Belgium&lt;/em&gt;
+&lt;br&gt;&lt;br&gt;
+Designed and deployed a microservices-based application for telemetry analysis and automated control of Optical Network Units (ONUs) within the Network Infrastructure division
+&lt;em&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Python, Flask, REST APIs, Pub/Sub Messaging, Bash&lt;/em&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="work-entry"&gt;
+&lt;div class="work-logo"&gt;
+&lt;img src="walmart_global_tech.png" alt="Walmart Global Technology Logo" style="height: 85px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;div class="work-text"&gt;
+&lt;strong&gt;Software Engineer - II&lt;/strong&gt;&lt;br&gt;
+Walmart Global Technology Services India Pvt. Ltd&lt;br&gt;
+&lt;em&gt;July 2022 – August 2023; Bengaluru, India&lt;/em&gt;
+&lt;br&gt;&lt;br&gt;
+Worked on an end-to-end tracking system for Sam’s Club Supply Chain to monitor domestic and international deliveries and generate data-driven insights into evolving logistics trends
+&lt;em&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Java, Spring Boot, REST APIs, MySQL, Kafka, Karate&lt;/em&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="work-entry"&gt;
+&lt;div class="work-logo"&gt;
+&lt;img src="walmart_global_tech.png" alt="Walmart Global Technology Logo" style="height: 85px; width: auto;"&gt;
+&lt;/div&gt;
+&lt;div class="work-text"&gt;
+&lt;strong&gt;Engineering Intern&lt;/strong&gt;&lt;br&gt;
+Walmart Global Technology Services India Pvt. Ltd&lt;br&gt;
+&lt;em&gt;May 2021 – July 2021; Bengaluru, India&lt;/em&gt;
+&lt;br&gt;&lt;br&gt;
+Optimized shipment packaging by implementing 4D Bin Packing algorithms and designing a regression-based order routing model to improve logistics efficiency
+&lt;em&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Java, Spring Boot, REST APIs, JUnit, JMeter&lt;/em&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title/><link>/work/card/tech_skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/work/card/tech_skills/</guid><description>
+&lt;!-- _**For a detailed outlook of university and internship projects, please click [here](/projects/).**_ --&gt;</description></item></channel></rss>
