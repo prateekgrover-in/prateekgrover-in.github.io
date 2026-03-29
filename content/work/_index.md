@@ -4,7 +4,7 @@
 
 <div class="quote-right" style="text-align: center; margin-left: -3.5em;margin-right: -4.5em">
 <img src="short_portfolio.png" alt="Avatar" style='border-radius: 50%;max-width: 50%;height: auto;'>
-<figcaption style='text-align: center;'>him/her</figcaption>
+<figcaption style='text-align: center;'>he/him</figcaption>
 </div>
 
 <br>
