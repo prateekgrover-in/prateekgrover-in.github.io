@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content="0; url={{ "/work/" | relURL }}" />
+  <link rel="canonical" href="{{ "/work/" | absURL }}" />
+  <title>{{ .Site.Title }}</title>
+</head>
+<body>
+  <script>window.location.replace("{{ "/work/" | relURL }}");</script>
+  <p>Redirecting to <a href="{{ "/work/" | relURL }}">work</a>&hellip;</p>
+</body>
+</html>

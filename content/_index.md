@@ -1,9 +1,9 @@
 ---
 title: bio
-menu:
-  header:
-    weight: 1
 ---
+<!--
+bio page disabled — the work page (/work/) is now the site default (see layouts/index.html).
+to re-enable: restore the `menu.header.weight: 1` front matter above, and uncomment the block below.
 
 # (short) bio
 
@@ -24,3 +24,4 @@ i'm a grad student at ku leuven, living in bierbeek, a small town near leuven, b
 avatar is from a game screenshot a friend designed - it's realistic enough i think :)
 
 _prateek.grover.in[at]gmail[dot]com_ | [bluesky](https://bsky.app/profile/prateek-grover.bsky.social) | [instagram](https://www.instagram.com/prateek.grover_/)
+-->

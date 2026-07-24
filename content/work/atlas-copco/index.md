@@ -1,0 +1,293 @@
+---
+title: "Atlas Copco Group — Platform & DevOps Engineer"
+date: 2025-10-01
+_build:
+  list: never
+features: ["-toc"]
+---
+
+<style>
+.detail-header { margin-bottom: 1.5rem; }
+.detail-header-inner { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; }
+.detail-header-left { flex: 1 1 0; min-width: 0; }
+.detail-org { font-size: 1.35em; font-weight: 700; letter-spacing: -0.02em; color: #111; line-height: 1.2; margin-bottom: 0.3rem; }
+.detail-sub { font-size: 0.8em; color: #999; margin-bottom: 0.3rem; }
+.detail-role { font-size: 0.92em; font-weight: 500; color: #444; margin-bottom: 0.15rem; }
+.detail-duration { font-size: 0.78em; color: #bbb; letter-spacing: 0.01em; }
+.detail-header-right { flex-shrink: 0; }
+.detail-header-right img { max-height: 50px; width: auto; display: block; }
+.detail-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 1rem 0 1.2rem; }
+.detail-tag { font-size: 0.78em; padding: 0.25rem 0.75rem; border-radius: 3px; background: transparent; color: #232323; text-transform: uppercase; letter-spacing: 0.04em; border: 1px solid #232323; }
+.detail-section { margin: 2rem 0; }
+.detail-section h3 { font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.1em; color: #bbb; margin: 0 0 1.2rem 0; padding-bottom: 0.5rem; border-bottom: 1px dashed #ebebeb; }
+.bullet-list { list-style: none; padding: 0; margin: 0; }
+.bullet-list li { padding: 0.35rem 0 0.35rem 1.2em; position: relative; font-size: 0.93em; line-height: 1.6; color: #333; }
+.bullet-list li::before { content: "—"; position: absolute; left: 0; color: #aaa; }
+.tech-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+.tech-chip { font-size: 0.8em; padding: 0.2rem 0.65rem; border-radius: 3px; background: #232323; color: #fff; font-family: monospace; }
+.back-link { font-size: 0.85em; color: #7e7e7e; text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+.back-link:hover { color: #232323; }
+.detail-graphic { margin: 0 0 1.5rem; border-radius: 6px; overflow: hidden; height: 200px; position: relative; }
+.detail-graphic svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/* ── Dark mode ── */
+body.ac-dark { background: #111 !important; color: #d0d0d0 !important; }
+body.ac-dark .article, body.ac-dark main, body.ac-dark .container { background: #111 !important; }
+body.ac-dark .single main { background: #111 !important; box-shadow: none !important; }
+body.ac-dark .single .appendix { background: #111 !important; box-shadow: none !important; }
+body.ac-dark .menu { background: #111 !important; box-shadow: none !important; }
+body.ac-dark .menu a, body.ac-dark .menu li a { color: #888 !important; background: #111 !important; }
+body.ac-dark footer, body.ac-dark .footer { background: #111 !important; border-color: #222 !important; }
+body.ac-dark .footer a, body.ac-dark footer a { color: #666 !important; background: #111 !important; }
+body.ac-dark .footer *, body.ac-dark footer * { color: #666 !important; }
+body.ac-dark .article-meta { background: #111 !important; }
+body.ac-dark .detail-org { color: #f0f0f0 !important; }
+body.ac-dark .detail-sub { color: #888 !important; }
+body.ac-dark .detail-role { color: #bbb !important; }
+body.ac-dark .detail-duration { color: #666 !important; }
+body.ac-dark .detail-tag { color: #bbb !important; border-color: #555 !important; }
+body.ac-dark .detail-section h3 { color: #555 !important; border-bottom-color: #2a2a2a !important; }
+body.ac-dark .bullet-list li { color: #c0c0c0 !important; }
+body.ac-dark .bullet-list li::before { color: #555 !important; }
+body.ac-dark .tech-chip { background: #2a2a2a !important; color: #d0d0d0 !important; }
+body.ac-dark .back-link { color: #666 !important; }
+body.ac-dark .back-link:hover { color: #ccc !important; }
+body.ac-dark .note-box { background: #1a1a1a !important; border-left-color: #555 !important; color: #aaa !important; }
+body.ac-dark h1, body.ac-dark h2, body.ac-dark h3, body.ac-dark h4 { color: #e0e0e0 !important; }
+body.ac-dark a { color: #aaa !important; }
+body.ac-dark hr { border-color: #2a2a2a !important; }
+#ac-page-toggle { position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 1000; padding: 0.35rem 0.8rem; font-size: 0.78em; font-family: inherit; border-radius: 4px; cursor: pointer; letter-spacing: 0.04em; border: 1px solid rgba(0,0,0,0.18); background: rgba(255,255,255,0.9); color: #444; box-shadow: 0 2px 8px rgba(0,0,0,0.12); backdrop-filter: blur(6px); transition: background 0.2s, color 0.2s, border-color 0.2s; }
+body.ac-dark #ac-page-toggle { background: rgba(30,30,30,0.92) !important; color: #ccc !important; border-color: rgba(255,255,255,0.15) !important; }
+</style>
+
+<script>if(localStorage.getItem('site-dark-mode')==='1')document.body.classList.add('ac-dark');</script>
+<button id="ac-page-toggle" onclick="acTogglePage()">dark</button>
+<a class="back-link" href="/work/">← Back to work</a>
+
+<div class="detail-header">
+  <div class="detail-header-inner">
+    <div class="detail-header-left">
+      <div class="detail-org">Atlas Copco Group</div>
+      <!-- <div class="detail-sub">Industrial IoT · Contract, Part-time</div> -->
+      <div class="detail-role">Platform &amp; DevOps Engineer</div>
+      <div class="detail-duration">Oct 2025 – Present &nbsp;·&nbsp; Antwerp, Belgium</div>
+    </div>
+    <div class="detail-header-right">
+      <img src="/atlas_copco.png" alt="Atlas Copco">
+    </div>
+  </div>
+</div>
+
+<div class="detail-tags">
+  <span class="detail-tag">Industry</span>
+  <span class="detail-tag">Software</span>
+  <span class="detail-tag">Cloud</span>
+</div>
+
+<div class="detail-graphic" id="ac-graphic">
+<svg viewBox="0 0 800 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ac-bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#eef2ff"/><stop offset="100%" stop-color="#ffffff"/>
+    </radialGradient>
+    <filter id="ac-glow"><feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="200" fill="url(#ac-bg)"/>
+
+  <!-- Subtle horizontal grid lines -->
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#c0d0e8" stroke-width="0.4" opacity="0.5"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#c0d0e8" stroke-width="0.4" opacity="0.5"/>
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#c0d0e8" stroke-width="0.4" opacity="0.5"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#c0d0e8" stroke-width="0.4" opacity="0.5"/>
+
+  <!-- ═══ PANEL 1: CPU metrics chart (left) ═══ -->
+  <rect x="16" y="14" width="230" height="118" rx="5" fill="#edf2ff" stroke="#c0d0e8" stroke-width="0.7"/>
+  <text x="26" y="30" fill="#4b5563" font-size="8" font-family="monospace">cpu %</text>
+  <!-- Chart grid -->
+  <line x1="26" y1="45" x2="236" y2="45" stroke="#c0d0e8" stroke-width="0.3" opacity="0.6"/>
+  <line x1="26" y1="65" x2="236" y2="65" stroke="#c0d0e8" stroke-width="0.3" opacity="0.6"/>
+  <line x1="26" y1="85" x2="236" y2="85" stroke="#c0d0e8" stroke-width="0.3" opacity="0.6"/>
+  <line x1="26" y1="105" x2="236" y2="105" stroke="#c0d0e8" stroke-width="0.3" opacity="0.6"/>
+  <!-- CPU wave line -->
+  <polyline points="26,78 38,70 50,64 62,68 74,76 86,82 98,85 110,78 122,66 134,58 146,62 158,72 170,80 182,76 194,65 206,60 218,66 230,74" fill="none" stroke="#22d3ee" stroke-width="1.6" opacity="0.75" stroke-linejoin="round">
+    <animate attributeName="points" values="26,78 38,70 50,64 62,68 74,76 86,82 98,85 110,78 122,66 134,58 146,62 158,72 170,80 182,76 194,65 206,60 218,66 230,74;26,72 38,66 50,72 62,80 74,85 86,78 98,70 110,62 122,58 134,65 146,74 158,82 170,78 182,68 194,60 206,64 218,72 230,80;26,78 38,70 50,64 62,68 74,76 86,82 98,85 110,78 122,66 134,58 146,62 158,72 170,80 182,76 194,65 206,60 218,66 230,74" dur="6s" repeatCount="indefinite"/>
+  </polyline>
+  <!-- CPU fill area -->
+  <polygon points="26,78 38,70 50,64 62,68 74,76 86,82 98,85 110,78 122,66 134,58 146,62 158,72 170,80 182,76 194,65 206,60 218,66 230,74 230,115 26,115" fill="#22d3ee" opacity="0.06"/>
+  <!-- Value readout -->
+  <text x="26" y="126" fill="#22d3ee" font-size="9" font-family="monospace" opacity="0.8">78.3%</text>
+  <circle cx="58" cy="123" r="2.5" fill="#22d3ee" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="66" y="126" fill="#34d399" font-size="7" font-family="monospace" opacity="0.5">live</text>
+
+  <!-- ═══ PANEL 2: Request latency (center) ═══ -->
+  <rect x="260" y="14" width="280" height="118" rx="5" fill="#edf2ff" stroke="#c0d0e8" stroke-width="0.7"/>
+  <text x="270" y="30" fill="#4b5563" font-size="8" font-family="monospace">request latency (p99)</text>
+  <!-- SLA threshold line -->
+  <line x1="270" y1="48" x2="530" y2="48" stroke="#f87171" stroke-width="0.5" opacity="0.35" stroke-dasharray="4,3"/>
+  <text x="500" y="46" fill="#f87171" font-size="6" font-family="monospace" opacity="0.5">SLA</text>
+  <!-- Latency line -->
+  <polyline points="270,76 280,72 290,68 300,74 310,80 320,78 330,70 340,65 350,62 360,58 370,64 380,72 390,78 400,82 410,76 420,68 430,62 440,66 450,74 460,78 470,72 480,64 490,60 500,66 510,74 520,78 530,72" fill="none" stroke="#34d399" stroke-width="1.4" opacity="0.65" stroke-linejoin="round">
+    <animate attributeName="points" values="270,76 280,72 290,68 300,74 310,80 320,78 330,70 340,65 350,62 360,58 370,64 380,72 390,78 400,82 410,76 420,68 430,62 440,66 450,74 460,78 470,72 480,64 490,60 500,66 510,74 520,78 530,72;270,70 280,66 290,74 300,80 310,76 320,68 330,62 340,58 350,64 360,72 370,78 380,82 390,76 400,68 410,62 420,66 430,74 440,80 450,76 460,68 470,60 480,58 490,66 500,74 510,80 520,76 530,68;270,76 280,72 290,68 300,74 310,80 320,78 330,70 340,65 350,62 360,58 370,64 380,72 390,78 400,82 410,76 420,68 430,62 440,66 450,74 460,78 470,72 480,64 490,60 500,66 510,74 520,78 530,72" dur="7s" repeatCount="indefinite"/>
+  </polyline>
+  <!-- Latency fill -->
+  <polygon points="270,76 280,72 290,68 300,74 310,80 320,78 330,70 340,65 350,62 360,58 370,64 380,72 390,78 400,82 410,76 420,68 430,62 440,66 450,74 460,78 470,72 480,64 490,60 500,66 510,74 520,78 530,72 530,115 270,115" fill="#34d399" opacity="0.04"/>
+  <!-- Value -->
+  <text x="270" y="126" fill="#34d399" font-size="9" font-family="monospace" opacity="0.8">124ms</text>
+  <text x="310" y="126" fill="#4b5563" font-size="7" font-family="monospace" opacity="0.4">avg</text>
+
+  <!-- ═══ PANEL 3: Memory bars (right) ═══ -->
+  <rect x="554" y="14" width="230" height="118" rx="5" fill="#edf2ff" stroke="#c0d0e8" stroke-width="0.7"/>
+  <text x="564" y="30" fill="#4b5563" font-size="8" font-family="monospace">memory allocation</text>
+  <!-- Bars -->
+  <rect x="572" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="572" y="62" width="18" height="48" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="42;52;42" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="68;58;68" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="598" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="598" y="50" width="18" height="60" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="56;64;56" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="54;46;54" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="624" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="624" y="56" width="18" height="54" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="48;58;48" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="62;52;62" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="650" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="650" y="44" width="18" height="66" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="62;68;62" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="48;42;48" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="676" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="676" y="58" width="18" height="52" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="46;56;46" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="64;54;64" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="702" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="702" y="66" width="18" height="44" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="38;50;38" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="72;60;72" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="728" y="42" width="18" height="68" rx="2" fill="#a78bfa" opacity="0.12"/>
+  <rect x="728" y="52" width="18" height="58" rx="2" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="height" values="52;62;52" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="58;48;58" dur="3.8s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Value -->
+  <text x="564" y="126" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.8">6.2 GB</text>
+  <text x="599" y="126" fill="#4b5563" font-size="7" font-family="monospace" opacity="0.4">/ 8 GB</text>
+
+  <!-- ═══ BOTTOM ROW: Pipeline status & alerts ═══ -->
+  <!-- Pipeline dots -->
+  <circle cx="40" cy="152" r="4" fill="#22c55e" opacity="0.65"/>
+  <text x="50" y="155" fill="#374151" font-size="7" font-family="monospace" opacity="0.5">deploy-prod</text>
+  <line x1="118" y1="152" x2="148" y2="152" stroke="#b0c0d8" stroke-width="0.6"/>
+
+  <circle cx="156" cy="152" r="4" fill="#22c55e" opacity="0.65"/>
+  <text x="166" y="155" fill="#374151" font-size="7" font-family="monospace" opacity="0.5">build-main</text>
+  <line x1="228" y1="152" x2="258" y2="152" stroke="#b0c0d8" stroke-width="0.6"/>
+
+  <circle cx="266" cy="152" r="4" fill="#eab308" opacity="0.65">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="276" y="155" fill="#374151" font-size="7" font-family="monospace" opacity="0.5">lint-check</text>
+  <line x1="338" y1="152" x2="368" y2="152" stroke="#b0c0d8" stroke-width="0.6"/>
+
+  <circle cx="376" cy="152" r="4" fill="#22c55e" opacity="0.65"/>
+  <text x="386" y="155" fill="#374151" font-size="7" font-family="monospace" opacity="0.5">staging-sync</text>
+  <line x1="464" y1="152" x2="494" y2="152" stroke="#b0c0d8" stroke-width="0.6"/>
+
+  <circle cx="502" cy="152" r="4" fill="#22c55e" opacity="0.65"/>
+  <text x="512" y="155" fill="#374151" font-size="7" font-family="monospace" opacity="0.5">test-suite</text>
+
+  <!-- Alert badges (right side of bottom row) -->
+  <rect x="610" y="142" width="80" height="20" rx="3" fill="#ef4444" opacity="0.07" stroke="#ef4444" stroke-width="0.4"/>
+  <circle cx="622" cy="152" r="2.5" fill="#ef4444" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="630" y="155" fill="#fca5a5" font-size="7" font-family="monospace" opacity="0.7">pod restart</text>
+
+  <rect x="700" y="142" width="84" height="20" rx="3" fill="#f59e0b" opacity="0.06" stroke="#f59e0b" stroke-width="0.4"/>
+  <circle cx="712" cy="152" r="2.5" fill="#f59e0b" opacity="0.7"/>
+  <text x="720" y="155" fill="#fcd34d" font-size="7" font-family="monospace" opacity="0.6">disk 85%</text>
+
+  <!-- Bottom info line -->
+  <text x="26" y="185" fill="#c8d8ee" font-size="6.5" font-family="monospace" opacity="0.4">terraform plan · 0 to add, 2 to change, 0 to destroy</text>
+  <text x="530" y="185" fill="#c8d8ee" font-size="6.5" font-family="monospace" opacity="0.4">last sync: argocd/prod-cluster</text>
+  <circle cx="516" cy="183" r="2" fill="#22c55e" opacity="0.4"/>
+
+  <!-- Faint corner accents -->
+  <line x1="0" y1="0" x2="40" y2="0" stroke="#6366f1" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="0" x2="0" y2="30" stroke="#6366f1" stroke-width="1.5" opacity="0.15"/>
+  <line x1="800" y1="200" x2="760" y2="200" stroke="#6366f1" stroke-width="1.5" opacity="0.15"/>
+  <line x1="800" y1="200" x2="800" y2="170" stroke="#6366f1" stroke-width="1.5" opacity="0.15"/>
+</svg>
+</div>
+
+<div class="detail-section">
+<h3>Role</h3>
+Cloud observability, infrastructure, and platform tooling for a distributed Industrial IoT environment serving six cross-functional sub-teams — spanning both the global and Chinese Azure tenants, which run as separate clouds and have to be instrumented separately.
+</div>
+
+<div class="detail-section">
+<h3>What I did</h3>
+<ul class="bullet-list">
+  <li>Built observability across six IoT sub-teams — New Relic dashboards, NRQL alerting pipelines, deployment markers, and ingestion alerts for error triage, third-party API failures, and per-resource metrics — all provisioned through Terraform.</li>
+  <li>Wrote Azure Function Apps in Python to collect and push custom metrics from both the global and Chinese tenants into New Relic, extending a single observability picture across two clouds that do not talk to each other.</li>
+  <li>Migrated UltraDNS management to Terraform, removing manual steps from the release process, and consolidated cross-team cost reporting across 60+ resource groups so business units could see their own spend.</li>
+  <li>Took a Kubernetes migration from proof of concept into development: set up the clusters and a GitOps delivery pipeline on ArgoCD, Helm, Kargo, and Azure DevOps, with multi-environment promotion and approval gates.</li>
+  <li>Deployed databases and services onto those clusters — including ClickHouse across the global and China environments — with the supporting ACR mirrors, registry proxies, private networking, and subnets.</li>
+</ul>
+</div>
+
+<div class="detail-section">
+<h3>Tech stack</h3>
+<div class="tech-chips">
+<span class="tech-chip">Python</span>
+  <span class="tech-chip">Terraform</span>
+  <span class="tech-chip">Kubernetes</span>
+  <span class="tech-chip">ArgoCD</span>
+  <span class="tech-chip">Helm</span>
+  <span class="tech-chip">Kargo</span>
+  <span class="tech-chip">GitOps</span>
+  <span class="tech-chip">Azure Function Apps</span>
+  <span class="tech-chip">Azure Pipelines</span>
+  <span class="tech-chip">Azure Container Registry</span>
+  <span class="tech-chip">ClickHouse</span>
+  <span class="tech-chip">New Relic</span>
+  <span class="tech-chip">NRQL</span>
+  <span class="tech-chip">UltraDNS</span>
+  <span class="tech-chip">SQL</span>
+</div>
+</div>
+<script>
+(function(){
+  var isDark=localStorage.getItem('site-dark-mode')==='1';
+  var TO_DARK={stops:{'#eef2ff':'#0f1729','#ffffff':'#050a14'},fills:{'#edf2ff':'#0a101e','#c8d8ee':'#334155','#4b5563':'#64748b','#374151':'#94a3b8'},strokes:{'#c0d0e8':'#1e293b','#b0c0d8':'#334155'}};
+  var TO_LIGHT={stops:{'#0f1729':'#eef2ff','#050a14':'#ffffff'},fills:{'#0a101e':'#edf2ff','#334155':'#c8d8ee','#64748b':'#4b5563','#94a3b8':'#374151'},strokes:{'#1e293b':'#c0d0e8','#334155':'#b0c0d8'}};
+  function applyTheme(map){
+    var svg=document.querySelector('#ac-graphic svg');
+    if(!svg)return;
+    svg.querySelectorAll('stop').forEach(function(el){var c=el.getAttribute('stop-color');if(map.stops[c])el.setAttribute('stop-color',map.stops[c]);});
+    svg.querySelectorAll('[fill]').forEach(function(el){var f=el.getAttribute('fill');if(map.fills[f])el.setAttribute('fill',map.fills[f]);});
+    svg.querySelectorAll('[stroke]').forEach(function(el){var s=el.getAttribute('stroke');if(map.strokes[s])el.setAttribute('stroke',map.strokes[s]);});
+  }
+  function swapLogo(dark){var l=document.querySelector('.detail-header-right img');if(l)l.src=dark?'/atlas_copco_dark.png':'/atlas_copco.png';}
+  if(isDark){applyTheme(TO_DARK);swapLogo(true);}
+  var btn=document.getElementById('ac-page-toggle');
+  if(btn)btn.textContent=isDark?'light':'dark';
+  window.acTogglePage=function(){
+    isDark=!isDark;
+    localStorage.setItem('site-dark-mode',isDark?'1':'0');
+    document.body.classList.toggle('ac-dark',isDark);
+    applyTheme(isDark?TO_DARK:TO_LIGHT);
+    swapLogo(isDark);
+    var btn=document.getElementById('ac-page-toggle');
+    if(btn)btn.textContent=isDark?'light':'dark';
+  };
+})();
+</script>
